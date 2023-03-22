@@ -23,19 +23,13 @@ if __name__ == "__main__":
         2 Odejmowanie, 
         3 Mnożenie, 
         4 Dzielenie: """))
+        x = int(input("Podaj składnik 1: "))
+        y = int(input("Podaj składnik 2: "))
         if operation == 1:
-                x = int(input("Podaj składnik 1: "))
-                y = int(input("Podaj składnik 2: "))
                 addition(x, y)
         if operation == 2:
-                x = int(input("Podaj składnik 1: "))
-                y = int(input("Podaj składnik 2: "))
                 subtraction(x, y)
         if operation == 3:
-                x = int(input("Podaj składnik 1: "))
-                y = int(input("Podaj składnik 2: "))
                 multiplication(x, y)
         if operation == 4:
-                x = int(input("Podaj składnik 1: "))
-                y = int(input("Podaj składnik 2: "))
                 division(x, y)
